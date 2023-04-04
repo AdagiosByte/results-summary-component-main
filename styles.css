@@ -1,0 +1,116 @@
+.body{
+    max-width: 1440;
+    max-height: 1080;
+}
+
+.page{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: column;
+    text-align: center;
+    justify-content: center;
+    height: 300px;
+    margin: 10%;
+    transform: translateZ(-1em);
+}
+
+.screen1{
+    position: absolute;
+    background-color: hsl(241, 81%, 54%,.9);
+    max-width: 40%;
+    border-radius: 20px;
+    transform: translateZ(-1em);
+    -webkit-text-fill-color: white;
+}
+
+.screen2{
+    position: absolute;
+    text-align: left;
+    max-width: 40%;
+    right: 15%;
+    
+}
+
+.text{
+    position:fixed;
+    bottom: 0%;
+}
+
+h3{
+    transform: translateY(-1em);
+}
+
+i{
+    transform: translateY(-2em);
+}
+
+h1{
+    transform: translateY(-.5em);
+}
+
+.score-circle{
+    width: 7em;
+    height: 7em;
+    border-radius: 7em;
+    background-color: hsla(256, 72%, 46%, 1);
+    transform: translateX(8.6em) translateY(14.9em);
+}
+
+.summary{
+    transform: translateY(-3em) translateX(0.7em);
+}
+
+.Reaction{
+    transform: translateY(-3em) translateX(1em);
+    background-color: rgba(255, 0, 0, 0.452);
+    border-radius: 5px;
+}
+
+.Memory{
+    transform: translateY(-3em) translateX(1em);
+    background-color: rgba(255, 0, 0, 0.252);
+    border-radius: 5px;
+}
+
+.Verbal{
+    transform: translateY(-3em) translateX(1em);
+    background-color: rgba(0, 238, 255, 0.142);
+    border-radius: 5px;
+}
+
+.Visual{
+    transform: translateY(-3em) translateX(1em);
+    background-color: rgba(0, 238, 255, 0.142);
+    border-radius: 5px;
+}
+.Continue{
+    height: 3em;
+    background-color: hsl(241, 81%, 54%,.9);
+    border-radius: 1em;
+    transform:  translateX(1em);
+    -webkit-text-fill-color:white;
+
+    
+}
+
+Continue:hover{
+    cursor: pointer;
+}
+
+.memory-title{
+    -webkit-text-fill-color: #FFB21E;
+    font: 1em sans-serif;
+}
+.reaction-title{
+    -webkit-text-fill-color: #F55;
+    font: 1em sans-serif;
+}
+.verbal-title{
+    -webkit-text-fill-color: #00BB8F;
+    font: 1em sans-serif;
+}
+.visual-title{
+    -webkit-text-fill-color: #1125D6;
+    font: 1em sans-serif;
+}
